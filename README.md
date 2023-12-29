@@ -1,10 +1,13 @@
-# vector2vector
-Interconversion between mainstream vector graphics formats, accessed by WebUI
+# v2v
 
-- SVG
-- EPS
-- PDF
-- EMF
+**Vector to Vector 😊** 
+
+Interconversion between mainstream vector graphics formats as follows, driven by **Inkscape, Ghostscript** and **pdf2svg**, accessed by WebUI built by **Gradio**
+- [x] SVG
+
+- [x] EPS
+- [x] PDF
+- [x] EMF
 
 ```mermaid
 graph LR
@@ -66,3 +69,5 @@ python ui.py
 ```
 
 Visit http://127.0.0.1/8006 for your conversion.
+
+![image-20231229202030776](./assets/ui.png)
