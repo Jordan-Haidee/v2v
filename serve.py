@@ -1,9 +1,11 @@
-from pathlib import Path
-import uuid
-from fastapi import FastAPI, UploadFile, Form
-from fastapi.responses import FileResponse
-from core import any2any, VectorFormat
 import tempfile
+import uuid
+from pathlib import Path
+
+from fastapi import FastAPI, Form, UploadFile
+from fastapi.responses import FileResponse
+
+from core import VectorFormat, any2any
 
 app = FastAPI()
 temp_directory = Path(tempfile.gettempdir())

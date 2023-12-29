@@ -5,7 +5,6 @@ import subprocess
 from enum import Enum
 from pathlib import Path
 
-
 if os.name == "nt":
     gs_cmd = "gswin{}c".format(platform.architecture()[0][:2])
 elif os.name == "posix":
